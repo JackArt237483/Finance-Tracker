@@ -1,0 +1,15 @@
+{
+    "name": "user/finance",
+    "autoload": {
+        "psr-4": {
+            "User\\Finance\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "JackArt237483",
+            "email": "vip.artem4567@mail.ru"
+        }
+    ],
+    "require": {}
+}

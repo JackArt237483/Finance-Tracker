@@ -12,7 +12,6 @@ class TransactionController {
 
     public function index() {
         return $this->transactionModel->getAll();
-        require_once  '../views/main.php';
     }
 
     public function create($amount, $category_id, $type, $description) {
